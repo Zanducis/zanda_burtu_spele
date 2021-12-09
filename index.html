@@ -25,7 +25,7 @@
             </table>
             -->
             <div class="galva">
-                <button class="poga" onclick="openDarbiba('noteikumi')">Noteikumi</button>
+                <button class="poga" onclick="openCity('noteikumi')">Noteikumi</button>
                 <button class="poga" onclick="openCity('sakt_speli')">Sākt spēli</button>
                 <button class="poga" onclick="openCity('top')">Spēlētāju TOP</button>
                 <button class="poga" onclick="openCity('autors')">Par autoru</button>
@@ -33,7 +33,7 @@
         </div>
         <hr/>
         <div>
-            <h2 id="noteikumi" class="galva">Noteikumi</h2>
+            <h2 id="noteikumi" class="galva city" style="display:none">Noteikumi</h2>
             <p>Šeit būs ierakstīti spēles noteikumi</p>
             <ul>
                 <li>la la</li>
@@ -44,7 +44,7 @@
         <hr/>
 
         <div>
-            <h2 id="sakt_speli" class="galva">Sākt spēli</h2>
+            <h2 id="sakt_speli" class="galva city" style="display:none">Sākt spēli</h2>
             <p>Šeit varēs spēlēt spēli!!</p>
             <ul>
                 <li>pi pi</li>
@@ -55,7 +55,7 @@
         <hr/>
 
         <div>
-            <h2 id="top" class="galva">Spēlētāju TOP</h2>
+            <h2 id="top" class="galva city" style="display:none">Spēlētāju TOP</h2>
             <p>Šeit būs spēlētāju TOPs</p>
             <ul>
                 <li>hu hu</li>
@@ -66,7 +66,7 @@
         <hr/>
 
         <div>
-            <h2 id="autors" class="galva">Par autoru</h2>
+            <h2 id="autors" class="galva city" style="display:none">Par autoru</h2>
             <p>Šeit būs apraksts par spēles autotu :)</p>
             <ul>
                 <li>br br</li>
@@ -77,7 +77,7 @@
         <hr/>
 
         
-        <!--      
+       
             <div id="Paris" class="w3-container city" style="display:none">
                 <h2>Paris</h2>
                 <p>Paris is the capital of France.</p> 
@@ -89,7 +89,7 @@
             </div>
 
             <script>
-            function openDarbiba(cityName) {
+            function openCity(cityName) {
                 var i;
                 var x = document.getElementsByClassName("city");
                 for (i = 0; i < x.length; i++) {
@@ -98,7 +98,7 @@
                 document.getElementById(cityName).style.display = "block";  
             }
             </script>
-            -->
+          
         <footer>
             <p>&copy Zanda Galvāne, StartIT programmēšanas kursu ietvaros, 2021</p>
         </footer>
