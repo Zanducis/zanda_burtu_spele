@@ -1,0 +1,89 @@
+
+
+
+
+.wrapper
+{
+    background:#b6daf7;
+    text-align: center;
+	padding: 10px;       
+	margin-left: auto;  
+	margin-right: auto; 
+    width: 90%;
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(24, 38, 80);
+    padding: 5px;    
+} 
+
+/*.galva{
+
+}
+*/
+li {
+    margin-left: 35px;
+    text-align: left;
+}
+
+.poga{
+    width: 20%;
+    text-align: center; 
+    text-decoration: underline;
+    text-decoration-color: rgb(20, 32, 66);
+    border: 1px solid rgb(20, 32, 66);
+    background-color: #90c9f8;
+}
+
+hr{
+    border: 2px solid rgb(24, 38, 80);
+}
+
+
+
+
+
+
+
+/*
+ul
+{
+    text-align: center;
+	padding: 0px; /*➕
+}
+/*
+li
+{
+    display: inline-block;
+}
+
+.game
+{
+    width: 350px;
+    background: black;
+	text-align: center;  /*➕
+	margin-left: auto;   /*➕
+	margin-right: auto;  /*➕
+}
+/*
+.block
+{
+    display: inline-block;
+    background: crimson;
+    width: 100px;
+    height: 100px;
+    border:1px solid rgb(116, 1, 1);
+	text-align: center;  /*➕
+	margin:5px;          /*➕
+	font-size: 45px;     /*➕
+    vertical-align: top;
+}
+/*
+.block div
+{
+    display:none;
+}
+
+*/
