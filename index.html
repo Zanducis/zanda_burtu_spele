@@ -44,7 +44,7 @@
                         <div id="punkti"> Punkti = 0 </div>
                         <div id="vards"></div>
                         <input id="atbilde" style="display:none">
-                        <input id="mini" onclick="parbaude(atbilde.value)" value="Pārbaudīt vārdu" style="display:none">
+                        <input id="mini" onclick="parbaude(atbilde.value)" value="Pārbaudīt vārdu" type="button" style="display:none">
                     </div>
                 </form>
             </div>
@@ -78,7 +78,7 @@
                     }
                 }
             // te sākas spēles kods   
-            var vardi=["kaza","pele","galds","kalns","dators","pasaka"]; 
+            var vardi=["kaza","aita","pele","galds","skola","kalns","dators","kafija","pasaka"]; 
             //vārdu masīvs, lai viss strādātu, pēc kārtas jāliek vienāds daudzums viena garuma vārdu augošā garumā
             var vards; //vārds, ko dators liks minēt
             var sajaukts; // vārds, ko dators likt minēt, bet ar sajauktiem burtiem
@@ -106,7 +106,7 @@
             }
             // funkcija izvēlas random vārdu, to sajauc un parāda
             function paradaVardu(){
-                let vardaNr=Math.floor(Math.random()*2+(bsk-4)*2); // 2 - cik vārdu ar vienādu garumu
+                let vardaNr=Math.floor(Math.random()*3+(bsk-4)*3); // 3 - cik vārdu ar vienādu garumu
                 vards=vardi[vardaNr];
                 sajaukts=vards;
                 for(let i=0; i<bsk && sajaukts === vards; i++){
